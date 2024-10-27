@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8"
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <ttle>Aura Skincare</title>
+     <style> 
+       body {
+           font-family:'Arial', sans-serif;
+           bakground-color:#ffccdd;
+           color:#333;
+           }
+
+       header {
+              background-color:#a2d5a1;
+              padding:20px;
+              text-align:center;
+             }
+
+       nav ul { 
+              list-style-type:none;
+              padding:0;
+              }
+
+       nav ul li {
+                display:inline;
+                margin:0 15px; 
+                } 
+
+        nav a { 
+              text-drcoration:none;
+              color:#fff;
+             }
+
+         h1, h2 {
+              color:#2b5d34;
+             }
+
+         .product { 
+              text-align:center;
+              margin:20px;
+              } 
+
+        .product img { 
+           width:200px;
+           height: auto;
+           border-radius:10px;
+         } 
+
+       footer { 
+              text-align;center;
+              padding:20px;
+            } 
+
+     </style>
+</head>
+
+<body>
+     <header>
+        <h1>Welcome to Aura skincare</h1> 
+        <p>Crafted with care, our products harness the power of nature to nourish your skin</p>
+        <a href="https://www.auraskincare.com" target="_blank">Aura Skincare Website</a>
+        <nav>
+          <ul>
+             <li><a href="#products">Product</a></li>
+             <li><a href="#about">About Us</a></li>
+             <li><a href="#contact"> contact</a></li>
+         </ul> 
+       </nav>
+    </header>
+
+<section id="products">
+      <h2>Our Products</h2>
+
+      <div class="product">
+      <img src="aura-skincare-image1.jpg" alt="Pink Salt Body Scrub">
+     <p> This scrub is great for exfoliating and moisturizing the skin, leaving it smooth and refreshed. </p>
+      </div>
+
+     <div class="product">
+       <img src="aura-skincare-image2.jpg" alt="Shear Butter Cream">
+       <p>Nourish and soothe your skin with our luxurious shea butter moisturizer. Infused with grapeseed oil, tea tree, and lavender, it hydrates deeply while calming and protecting. Perfect for all skin types!</p>
+     </div>
+
+    <div class="product>
+      <img src="aura-skincare-image3.jpg" alt="Grapeseed Serum">
+     <p>Revitalize your skin with our lightweight grapeseed serum. Packed with antioxidants, it absorbs quickly to hydrate and protect, leaving your complexion radiant and balanced. Ideal for all skin types!</p>
+   </div> 
+ 
+      <p>Explore our range of natural skincare products.</p>
+</section>
+
+<footer>
+   <p>&copy; 2024 Aura Skincare. All right reserved.</p>
+</footer> 
+
+<script>
+     document.addEventListener("DOMContentLoaded", function() {
+         const welcomemessage=document.createElement("p");
+         welcomemessage.textcontent="Discover the beauty of natural skincare!";
+         document.queryselector("#products").appendChild(welcomeMessage);
+       });
+</script>
+</body>
+</html>
